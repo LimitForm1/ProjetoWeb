@@ -1,0 +1,104 @@
+   body, html{
+            margin:0;
+            padding:0;
+            background-image: url(teste5.png);
+            height: 15rem;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+    
+    nav li{
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-right: 4rem;
+    }
+    nav ul{margin-bottom: 20%;}
+
+    #flexbox{
+        display: flex;
+    }
+    #conteudo{
+        padding-left: 3rem;
+        color: white;
+    }
+    #wrap{display: flex;
+        flex-wrap: wrap;
+    }
+    nav{
+        background-color: rgba(129, 13, 13, 0.782);
+        border-right:1rem solid;
+        box-shadow: 10px 20px grey;}
+
+    nav a{ color: inherit;
+        text-decoration: none; }
+   
+    .item1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    #topo2{margin-top: 23.8%;}
+
+    #seta{
+        display: flex;
+        position: absolute;
+        top:80%;
+        left:55%;
+    }
+    #noticias{
+        margin: 4%;
+    }
+    .card{
+        width: 25rem;
+        height: 20rem;
+        background-color: white;
+    }
+    .futsal{
+        width: 20rem;
+        height: 15rem;
+    }
+    .desc{
+        margin-top: 5px;
+    }
+    .data_futsal{
+        margin-top: -15px;
+    }
+    .card2{
+        width: 25rem;
+        height: 20rem;
+        background-color: white;
+    }
+    .volei{
+        width: 20rem;
+        height: 15rem;
+    }
+    .desc_volei{
+        margin-top: 5px;
+    }
+    .data_volei{
+        margin-top: -15px;
+    }
+
+
+
+    footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 55%;
+    border-top: solid 0.1rem;
+    margin-top: 20rem;
+    width: 40rem;
+}
+
+    #instagram{
+        width: 2%;
+        height: 3%;
+    }
+
+
+    #parte2{margin-top: 40%}

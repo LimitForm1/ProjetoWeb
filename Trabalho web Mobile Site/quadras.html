@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamento de Quadras</title>
+  <link rel="stylesheet" href="quadras.css">
+</head>
+<body>
+        <header>
+            <section id="flexbox">
+                <nav class="menu">
+                    <ul style="list-style: none" class="menu">
+                        <li><a href="index.html"><img src="mackenzie-logo.png" width="100rem"></a></li>
+                            <li><a href="cadastrar.html" target= “_self”>Cadastrar-se</a>
+                        <li><a href="quadras.html" target= “_blank”>Quadras</a></li>
+                        <li><a href="times.html" target= “_blank”>Times</a></li>
+                    </ul>
+                </nav>
+  <div class="container">
+    <h1>Agendamento de Quadras</h1>
+    <form id="agendamentoForm">
+      <label for="quadra">Quadra desejada:</label>
+      <select id="quadra" name="quadra" required>
+        <option value="" disabled selected>Selecione a quadra</option>
+        <option value="quadra18">Quadra 18</option>
+        <option value="quadra20">Quadra 20</option>
+        <option value="quadra29">Quadra 29</option>
+        <option value="quadra52">Quadra 52</option>
+        <!-- Adicione mais opções conforme necessário -->
+      </select><br>
+
+      <label for="data">Data desejada:</label>
+      <input type="date" id="data" name="data" min="2023-10-01" max="2023-10-31" required><br>
+
+      <label for="horario">Horário desejado:</label>
+      <select id="horario" name="horario" required>
+        <option value="" disabled selected>Selecione o horário</option>
+        <option value="18:00">18:00</option>
+        <option value="19:00">19:00</option>
+        <option value="20:00">20:00</option>
+        <option value="21:00">21:00</option>
+        <!-- Adicione mais horários conforme necessário -->
+      </select><br>
+
+      <button type="submit">Agendar</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
